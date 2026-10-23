@@ -6,3 +6,5 @@ venv/
 .idea/
 .vscode/
 .DS_Store
+.mypy_cache/
+department_summary.csv
