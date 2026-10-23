@@ -27,3 +27,18 @@ flake8 .
 | Папка | Тема |
 |---|---|
 | `basics` | Основы языка |
+| `functions` | Функции: отчёт по `Corp_Summary.csv` |
+
+## Функции
+
+Положите `Corp_Summary.csv` рядом со скриптом или передайте путь через `--input`.
+
+```bash
+python functions/report.py 1
+python functions/report.py 2
+python functions/report.py 3 --output department_summary.csv
+```
+
+1. Иерархия: команды каждого департамента.
+2. Сводка по департаментам: численность, минимальная, максимальная и средняя зарплата.
+3. Сводка из пункта 2 в csv-файл.
